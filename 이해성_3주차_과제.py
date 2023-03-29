@@ -14,6 +14,7 @@ def grade(score):
         return "F"
 
 score = input("Enter your score : ")
+
 print(grade(score))
 
 
