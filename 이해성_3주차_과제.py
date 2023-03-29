@@ -58,7 +58,7 @@ print(leapYear(year))
 
 # 4번
 def dice(a, b, c):
-    # your code
+    #your code
     a = int(a)
     b = int(b)
     c = int(c)
@@ -82,7 +82,7 @@ print(dice(a, b, c))
 
 # 5번
 def alarm(time):
-    # your code
+    #your code
     time = int(time)
     time += 10000
     time = str(time)
