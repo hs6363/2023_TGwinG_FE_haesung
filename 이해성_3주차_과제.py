@@ -74,8 +74,8 @@ def dice(a, b, c):
             return 1000 + 100 * c
         
 a = input("Enter the first number of dice : ")
-b = input("Enter the first number of dice : ")
-c = input("Enter the first number of dice : ")
+b = input("Enter the second number of dice : ")
+c = input("Enter the third number of dice : ")
 
 print(dice(a, b, c))
 
