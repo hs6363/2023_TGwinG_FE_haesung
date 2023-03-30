@@ -65,7 +65,7 @@ def dice(a, b, c):
     if ((a == b) and (b == c)):
         return 10000 + 1000 * a
     elif ((a != b) and (b != c) and (c != a)):
-        p = max (a, b, c)
+        p = max(a, b, c)
         return 100 * p
     else:
         if (a == b):
