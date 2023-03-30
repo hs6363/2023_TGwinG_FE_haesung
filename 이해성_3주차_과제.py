@@ -83,13 +83,19 @@ print(dice(a, b, c))
 # 5번
 def alarm(time):
     #your code
-    time = int(time)
-    time += 10000
-    time = str(time)
-    time = time[1:]
 
-    hour = int(time[0:2])
-    min = int(time[2:4])
+    # time = int(time)
+    # time += 10000
+    # time = str(time)
+    # time = time[1:]
+
+    # hour = int(time[0:2])
+    # min = int(time[2:4])
+
+    time = int(time)
+
+    hour = time // 100
+    min = time % 100
 
     if (min >= 45):
         return str(hour) + "시" + str(min - 45) + "분"
@@ -101,4 +107,4 @@ def alarm(time):
 
 time = input("Enter the alarm time : ")
 
-print(alarm(time)) 
+print(alarm(time))
